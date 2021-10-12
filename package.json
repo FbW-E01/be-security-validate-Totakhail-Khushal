@@ -1,0 +1,27 @@
+{
+  "name": "be-security-validate-totakhail-khushal",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "- Do not use mongo/mongoose - Create a tiny API with two endpoints:   - `GET /birds` - returns current list of bird sightings in app memory   - `POST /birds` - adds a bird sighting to app memory",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FbW-E01/be-security-validate-Totakhail-Khushal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FbW-E01/be-security-validate-Totakhail-Khushal/issues"
+  },
+  "homepage": "https://github.com/FbW-E01/be-security-validate-Totakhail-Khushal#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "nodemon": "^2.0.13"
+  }
+}
